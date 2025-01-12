@@ -1,3 +1,4 @@
+/* General styles */
 .App {
   text-align: center;
 }
@@ -35,4 +36,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Add fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Apply fade-in animation to all sections */
+.fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+/* Header animation */
+.App-header {
+  animation: fadeIn 1.5s ease-out forwards; /* Header has its own delay */
+}
+
+/* Projects section animation */
+#projects {
+  animation: fadeIn 2s ease-out forwards; /* Projects section fade-in */
+}
+
+/* Skills section animation */
+#skills {
+  animation: fadeIn 2.5s ease-out forwards; /* Skills section fade-in */
+}
+
+/* Education section animation */
+#education {
+  animation: fadeIn 3s ease-out forwards; /* Education section fade-in */
+}
+
+/* Contact section animation */
+#contact {
+  animation: fadeIn 3.5s ease-out forwards; /* Contact section fade-in */
+}
+
+/* Footer section animation */
+footer {
+  animation: fadeIn 4s ease-out forwards; /* Footer fade-in */
 }

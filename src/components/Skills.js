@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <section id="skills" className="p-8 bg-gray-100 text-center">
+    <section id="skills" className="p-8 bg-gray-100 text-center fade-in">
       <h2 className="text-2xl font-bold">Skills</h2>
       <ul className="mt-4">
         <li><strong>Programming Languages:</strong> Java, Python</li>
