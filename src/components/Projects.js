@@ -1,22 +1,24 @@
+// src/components/Projects.js
 import React from "react";
 
 const Projects = () => {
   return (
-    <section id="projects" className="bg-gray-200 py-16 text-center fade-in">
-      <h2 className="text-3xl font-semibold mb-6">Projects</h2>
+    <section id="projects" className="p-8 text-center bg-gray-100">
+      {/* Heading */}
+      <h2 className="text-2xl font-bold mb-6">Projects</h2>
       <div className="max-w-4xl mx-auto">
         {/* Project 1 */}
-        <div className="bg-white shadow-lg rounded-lg p-6 mb-8 transform transition duration-300 hover:scale-105 hover:shadow-xl">
+        <div className="bg-white shadow-lg rounded-lg p-6 mb-4 transform transition duration-300 hover:scale-105 hover:shadow-xl animate__animated animate__fadeIn">
           <h3 className="text-2xl font-semibold mb-4">PizzaQuick Serve</h3>
           <p className="text-lg mb-4">Technologies: Java, J2EE, Spring Boot, MySQL, React</p>
           <ul className="list-disc list-inside">
-            <li>Streamlined order management and payment processing for a restaurant.</li>
+            <li>Developed an efficient ordering and payment system to improve customer experience and restaurant operations.</li>
             <li>Implemented secure authentication with Spring Security.</li>
             <li>Responsive frontend using React and managed backend with MySQL.</li>
           </ul>
         </div>
         {/* Project 2 */}
-        <div className="bg-white shadow-lg rounded-lg p-6 transform transition duration-300 hover:scale-105 hover:shadow-xl">
+        <div className="bg-white shadow-lg rounded-lg p-6 mb-4 transform transition duration-300 hover:scale-105 hover:shadow-xl animate__animated animate__fadeIn">
           <h3 className="text-2xl font-semibold mb-4">Shortest Route Optimization</h3>
           <p className="text-lg mb-4">Technologies: Python, Graph Theory, Optimization Libraries</p>
           <ul className="list-disc list-inside">
