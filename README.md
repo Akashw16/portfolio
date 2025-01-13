@@ -21,6 +21,7 @@ This is my personal portfolio website showcasing my projects, skills, and achiev
 
 ## Live Demo
 Check out the live version of the portfolio: [Portfolio Website] - (https://akashw16.github.io/portfolio)
+![Visitor Badge](https://visitor-badge.glitch.me/badge?page_id=akashw16.portfolio)
 
 ## Setup Instructions
 1. Clone the repository:
