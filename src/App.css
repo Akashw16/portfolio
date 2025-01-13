@@ -55,3 +55,6 @@ p {
 ul {
   padding-left: 20px;
 }
+html {
+  scroll-behavior: smooth;
+}
