@@ -1,5 +1,4 @@
-/* App.css */
-@import "animate.css"; /* Importing animate.css for animation */
+@import "animate.css"; 
 
 /* Fade-in and zoom-in animations */
 @keyframes fadeIn {
@@ -35,7 +34,7 @@
   animation-name: fadeIn;
 }
 
-/* Add styles for sections */
+/* styles for sections */
 section {
   padding: 4rem;
   margin: 2rem 0;
@@ -52,7 +51,7 @@ p {
   line-height: 1.6;
 }
 
-/* List style adjustments */
+
 ul {
   padding-left: 20px;
 }

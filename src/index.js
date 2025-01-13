@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css'; // Ensure Tailwind is imported
+import './index.css'; 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -10,10 +10,9 @@ root.render(
     <App />
   </React.StrictMode>
 );
-// Change to:
 
 root.render(
   <App />
 );
-// Optional: Log performance metrics if needed
+
 reportWebVitals();

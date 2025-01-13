@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "../assets/profile.jpg"; // Import the profile image
+import profileImg from "../assets/profile.jpg"; 
 
 const About = () => {
   return (
@@ -20,7 +20,7 @@ const About = () => {
       {/* Resume Download Link */}
       <div className="mt-6">
         <a
-          href="/Akash_Wani_Resume.pdf"  // Path to your resume in the public folder
+          href="/Akash_Wani_Resume.pdf" 
           download
           className="inline-flex items-center px-6 py-3 text-white bg-blue-500 rounded-full hover:bg-blue-600 transform transition duration-300 hover:scale-105 animate__animated animate__fadeIn animate__delay-2s"
         >
